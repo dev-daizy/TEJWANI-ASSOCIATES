@@ -21,14 +21,14 @@ menuLinks.forEach(link => {
 // JavaScript code for sharing on different platforms
 function shareOnWhatsApp(event) {
     event.preventDefault();
-    var websiteUrl = encodeURIComponent('https://dev-daizy.github.io/TEJWANI-ASSOCIATES');
+    var websiteUrl = encodeURIComponent('https://dev-daizy.github.io/TEJWANI-ASSOCIATES/');
     var whatsappUrl = 'https://api.whatsapp.com/send?text=please check this out CS vaibhav tejwani profile : ' + websiteUrl;
     window.open(whatsappUrl, '_blank');
     closeShareMenu();
 }
 function shareOnWhatsAppMobile(event) {
     event.preventDefault();
-    var websiteUrl = encodeURIComponent('https://dev-daizy.github.io/TEJWANI-ASSOCIATES');
+    var websiteUrl = encodeURIComponent('https://dev-daizy.github.io/TEJWANI-ASSOCIATES/');
     var whatsappUrl = 'https://web.whatsapp.com/send?text=please check this out CS vaibhav tejwani profile : ' + websiteUrl;
     window.open(whatsappUrl, '_blank');
     closeShareMenu();
@@ -36,7 +36,7 @@ function shareOnWhatsAppMobile(event) {
 
 function shareOnTwitter(event) {
     event.preventDefault();
-    var websiteUrl = encodeURIComponent('https://dev-daizy.github.io/TEJWANI-ASSOCIATES');
+    var websiteUrl = encodeURIComponent('https://dev-daizy.github.io/TEJWANI-ASSOCIATES/');
     var twitterUrl = 'https://twitter.com/intent/tweet?url=' + websiteUrl;
     window.open(twitterUrl, '_blank');
     closeShareMenu();
@@ -44,7 +44,7 @@ function shareOnTwitter(event) {
 
 function shareOnFacebook(event) {
     event.preventDefault();
-    var websiteUrl = encodeURIComponent('https://dev-daizy.github.io/TEJWANI-ASSOCIATES');
+    var websiteUrl = encodeURIComponent('https://dev-daizy.github.io/TEJWANI-ASSOCIATES/');
     var facebookUrl = 'https://www.facebook.com/sharer/sharer.php?u=' + websiteUrl;
     window.open(facebookUrl, '_blank');
     closeShareMenu();
