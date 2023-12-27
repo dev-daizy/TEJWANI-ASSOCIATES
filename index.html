@@ -1,0 +1,1125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Griffy&family=Jost:wght@300&family=Mukta&family=Noto+Sans+JP:wght@600&family=Open+Sans&family=Raleway:wght@300&display=swap" rel="stylesheet">
+
+<link rel="icon" href="assests/logo/Screenshot from 2023-12-26 01-22-31.png" type="image/x-icon">
+    <link rel="shortcut icon" href="assests/logo/Screenshot from 2023-12-26 01-22-31.png" type="image/x-icon">
+
+
+    <title>Tejwani & Associates</title>
+</head>
+<body>
+    <!-- 1- preheader -->
+    <div class="preheader flex justify-between bg-blue-100 h-auto w-full shadow-md">
+        <div class="leftpreheader flex p-3 divide-x-4 divide-blue-600/50">
+             <!-- EMAIL -->
+            <div class="email flex">
+
+            <a href="mailto:csvaibhavtejwani@gmail.com" target="_blank">
+                
+                <span class="emailicon mr-2">
+                    <i class="fas fa-envelope fa-2xl" style="color: #005eff;"></i>
+                </span>
+            </a>
+            <!-- only in desktop -->
+            <span class="hidden sm:block transition-transform duration-300 transform hover:scale-105 hover:text-blue-900 mr-2 ">
+                <!-- Hide on small screens (mobile) -->
+                <a href="mailto:deepanshusharma201411@gmail.com" target="_blank" >
+                    csvaibhavtejwani@gmail.com
+                </a>
+            </span>
+            
+            </div>
+
+
+        <!-- phone -->
+        <div class="phone ml-2 flex">
+            <a href="tel:+919799412333">
+                <span class="phoneicon mr-1 ml-4">
+                    <i class="fas fa-phone fa-xl" style="color: #005eff;"></i>
+                </span>
+            </a>
+            <!-- only in desktop -->
+            <span class="styled-number hidden sm:block transition-transform duration-300 transform hover:scale-105 hover:text-blue-900">
+                <a href="tel:+919799412333">
+                    +91 9799412333 
+                </a>
+            </span>
+
+        </div>
+
+        </div>
+        <!-- right -->
+        <div class="flex rightpreheader divide-x-2 ">
+        <div class="socialHandles flex p-3 sm:mr-2 ">
+            <i class="fa-solid fa-quote-left mr-2" style="color: rgb(37 99 235 / 0.5);"></i>            
+            <div class="icon mr-3 sm:mr-5 transition-transform duration-300 transform hover:scale-125 ">
+                <a href="http://twitter.com/Vaibhavtejwani1" target="_blank"><i class="fa-brands fa-twitter fa-xl" style="color: #005eff;"></i></a>
+            </div>
+            <div class="icon mr-3 sm:mr-5 transition-transform duration-300 transform hover:scale-125">
+                <a href="https://www.linkedin.com/in/cs-vaibhav-tejwani-418390122/" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin-in fa-xl" style="color: #005eff;"></i></a>
+            </div>
+            <div class="icon mr-3 sm:mr-5 transition-transform duration-300 transform hover:scale-125">
+                <a href="http://instagram.com/its_csvaibhav" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram fa-xl" style="color: #005eff;"></i></a>
+            </div>
+            <div class="icon mr-3 sm:mr-5 transition-transform duration-300 transform hover:scale-125">
+              <a href="http://facebook.com/Vaibhav tejwani  (CS Vaibhav Tejwani)" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook fa-xl" style="color: #005eff;"></i></a>
+          </div>
+            <div class="icon transition-transform duration-300 transform hover:scale-125">
+                <!-- desktop view -->
+                <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl" style="color: #005eff;"></i></a>
+                <!-- mobile view -->
+                <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl" style="color: #005eff;"></i></a>
+            </div>
+            <i class="fa-solid fa-quote-right ml-2" style="color: rgb(37 99 235 / 0.5);"></i>
+        </div>
+        </div>
+       
+        
+    </div>
+
+
+
+    <!-- navbar -->
+    <nav class="navbar drop-shadow-lg shadow-xl container mx-auto p-3 sticky top-0 bg-blue-800">
+        <!-- flex container -->
+        <div class="flex item-center justify-between">
+            <!-- logo -->
+            <div class="p-1 flex">
+              <img class="w-12 h-auto mr-2  invert  mix-blend-normal " src="assests/logo/logojiju-1.png" alt="">
+              <a href="#home">
+
+                <h3 class=" font-normal mr-2
+                 text-xl mt-2 md:mt-0 text-white md:text-3xl cursor-pointer">Tejwani & Associates</h3>
+              </a>
+                
+            </div>
+            <!-- menu item -->
+            <div class="hidden text-center pt-[6px] justify-center md:flex space-x-7 text-lg uppercase md:font-normal text-white ">
+                <a href="#home" class="hover:border-blue-400 hover:scale-105 text-center  border-b-2 border-blue-800">home</a>
+                <a href="#About" class="hover:border-blue-400 hover:scale-105 text-center  border-b-2 border-blue-800">about-us</a>
+                <a href="#Services" class="hover:border-blue-400 hover:scale-105 text-center  border-b-2 border-blue-800">service</a>
+                <a href="#Gallery" class="hover:border-blue-400 hover:scale-105 text-center  border-b-2 border-blue-800">gallery</a>
+                <a href="#Payments" class="hover:border-blue-400 hover:scale-105 text-center  border-b-2 border-blue-800">payments</a>
+                <a href="#Feedback" class="hover:border-blue-400 hover:scale-105 text-center  border-b-2 border-blue-800">feedback</a>
+                <a href="#Enquiry" class="hover:border-blue-400 hover:scale-105 text-center  border-b-2 border-blue-800">enquiry</a>
+            </div>
+            <!-- button -->
+    
+                <!-- <a href="#"
+                class="hidden md:block p-3 px-6 pt-2 text-white bg-blue-600 rounded-full baseline hover:bg-blue-400 hover:text-black"
+                >Get Started</a> -->
+    
+    
+    
+                <!-- hamburder icon -->
+                <button id="menu-btn" class=" block hamburger md:hidden focus:outline-none mt-4">
+                  <span class="hamburger-top"></span>
+                  <span class="hamburger-middle"></span>
+                  <span class="hamburger-bottom"></span>
+                </button>
+    
+        </div>
+        <!-- mobile-menu -->
+        <div class="md:hidden">
+          <div id="menu" class="absolute flex-col hidden items-center self-end py-8 mt-10 space-y-6 font-bold bg-white sm:w-auto sm:self-center left-6 right-6 drop-shadow-xl uppercase">
+                <a href="#home" class="hover:text-red-400 hover:scale-105 text-center  border-b-4">home</a>
+                <a href="#About" class="hover:text-red-400 hover:scale-105 text-center  border-b-4">about-us</a>
+                <a href="#Services" class="hover:text-red-400 hover:scale-105 text-center  border-b-4">service</a>
+                <a href="#Gallery" class="hover:text-red-400 hover:scale-105 text-center  border-b-4">gallery</a>
+                <a href="#Payments" class="hover:text-red-400 hover:scale-105 text-center  border-b-4">payments</a>
+                <a href="#Feedback" class="hover:text-red-400 hover:scale-105 text-center  border-b-4">feedback</a>
+                <a href="#Enquiry" class="hover:text-red-400 hover:scale-105 text-center  border-b-4">enquiry</a>
+          </div>   
+         </div>
+    </nav>
+    <!-- hero section -->
+    <section id="home">
+        <!-- flex container -->
+        <div class="container flex flex-col-reverse md:flex-row item-center px-6 mx-auto mt-10 space-y-0 md:space-y-0">
+            <!-- left item -->
+            <div class="animated-heading flex flex-col mb-20 space-y-12 md:w-1/2 md:mb-0 ">
+                <h1 class=" max-w-md text-2xl font-bold text-center md:text-4xl md:text-left">
+                    TEJWANI & ASSOCIATES <span class="font-extralight md:text-3xl md:font-thin"> (COMPANY SECRETARIES IN WHOLE TIME PRACTICE)</span>
+                </h1>
+                <p class="max-w-sm text-center text-blue-800 md:text-left md:text-lg">Practicing Company Secretary , Trademark Agent , Member of Management committee - Jaipur Chapter Of NIRC Of ICSI </p>
+                <div class="flex justify-center md:justify-start">
+                <a href="tel:+919799412333"
+                class="md:block p-3 px-6 pt-2 text-white bg-blue-600 rounded-full baseline mr-2 hover:bg-blue-400 hover:text-black"
+                ><i class="fa-solid fa-phone fa-xl" style="color: #ffffff;"></i></a>
+                <!-- desktop view -->
+                <a class="hidden sm:block p-3 px-6 pt-2 text-white bg-blue-600 rounded-full baseline mr-2 hover:bg-blue-400 hover:text-black" href="https://web.whatsapp.com/send?phone=+919799412333" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i></a>
+                <!-- mobile view -->
+                <a class=" sm:hidden p-3 px-6 pt-2 text-white bg-blue-600 rounded-full baseline mr-2 hover:bg-blue-400 hover:text-black" href="https://api.whatsapp.com/send?phone=+919799412333" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i></a>
+                <a href="#Address"
+                class="md:block p-3 px-6 pt-2 text-white bg-blue-600 rounded-full baseline mr-2 hover:bg-blue-400 hover:text-black"
+                ><i class="fa-solid fa-map-location-dot fa-xl" style="color: #ffffff;"></i></a>
+                <a href="#Payments"
+                class="md:block p-3 px-6 pt-2 text-white bg-blue-600 rounded-full baseline mr-2 hover:bg-blue-400 hover:text-black"
+                ><i class="fa-solid fa-money-bill-wave fa-xl" style="color: #ffffff;"></i></a>
+                </div>
+
+                <!-- Share button -->
+                <div class="flex w-full md:mt-10 ">
+              <div class="flex text-center w-full justify-center md:justify-start">
+          <button id="shareButton" type="button" class="flex items-center justify-center md:w-1/2 shadow-xl shadow-blue-200/50 px-4 py-2 bg-white md:text-2xl text-xl font-light text-gray-700  hover:bg-blue-400 hover:text-white border-2 border-blue-600 hover:border-none">
+              Share my profile 
+          </button>
+          
+         
+       
+         
+          <div id="shareMenu" class="hidden origin-center absolute  mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
+              <div class="py-1" role="menu" aria-orientation="vertical" aria-labelledby="shareButton">
+                  <a href="#" class="block md:hidden px-4 py-2 text-md text-gray-700 hover:bg-gray-100 hover:text-green-600" onclick="shareOnWhatsApp(event)">Share on WhatsApp</a>
+                  <a href="#" class="hidden md:block px-4 py-2 text-md text-gray-700 hover:bg-gray-100 hover:text-green-600" onclick="shareOnWhatsAppMobile(event)">Share on WhatsApp</a>
+                  <a href="#" class="block px-4 py-2 text-md text-gray-700 hover:bg-gray-100 hover:text-gray-900" onclick="shareOnTwitter(event)">Share on Twitter</a>
+                  <a href="#" class="block px-4 py-2 text-md text-gray-700 hover:bg-gray-100 hover:text-blue-700" onclick="shareOnFacebook(event)">Share on Facebook</a>
+              </div>
+          </div>
+          
+      </div>
+      
+      
+  </div>
+  <a class="hidden md:flex  justify-center md:justify-start" href="https://www.slideshare.net/deepanshusharma20141/tejwani-associates-practicing-company-secretary-trademark-agent-member-of-management-committee-jaipur-chapter-of-nirc-of-icsi" target="_blank">
+    <button type="button" class="flex items-center justify-center md:w-1/2 shadow-xl shadow-blue-200/50 px-4 py-2 bg-white md:text-2xl text-xl font-light text-gray-700  hover:bg-blue-400 hover:text-white border-2 border-blue-600 hover:border-none">
+      See my brochure
+  </button></a>
+  
+                
+            </div>
+            <!-- images jiju -->
+            <div class="animated-Image md:w-2/2 mix-blend-normal">
+                <img class="md:mt-1  mb-5 rounded-3xl   shadow-md " src="assests/logo/juju-3.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <!-- features section -->
+    <section id="About">
+        <!-- flex container -->
+        <div class="container flex flex-col px-4 mx-auto  space-y-12 md:space-y-0 md:flex-row">
+            <!-- whats diffrent -->
+            <div class="flex flex-col space-y-4 md:space-y-12 md:w-1/2 ">
+                <h2 class="max-w-md text-4xl font-bold text-center md:text-left">
+                    What's about-us and speciality?
+                </h2>
+                <p class="max-w-sm text-center text-blue-800 md:text-left md:text-lg">
+                  <span class="font-semibold text-blue-900">Company Name:		</span>
+                  Tejwani & Associates (Company Secretaries in Whole Time Practice)</p>
+                  <p class="max-w-sm text-center text-blue-800 md:text-left md:text-lg">
+                    <span class="font-semibold text-blue-900">Establishment Year:		</span>
+                    2017</p>
+                    <p class="max-w-sm text-center text-blue-800 md:text-left md:text-lg">
+                      <span class="font-semibold text-blue-900"> Nature of business:		</span>
+                     Company Secretaries in Whole Time Practice, Corporate Law and Legal Services.</p>
+                  <!-- images -->
+            <div class="animationImg md:w-2/3 md:flex md:flex-col mix-blend-normal">
+              <img class="md:mt-4 md:pt-4" src="assests/logo/png2.png" alt="">
+          </div>
+          <a class="flex md:hidden justify-center md:justify-start" href="https://www.slideshare.net/deepanshusharma20141/tejwani-associates-practicing-company-secretary-trademark-agent-member-of-management-committee-jaipur-chapter-of-nirc-of-icsi" target="_blank">
+            <button type="button" class="flex items-center justify-center md:w-1/2 shadow-xl shadow-blue-200/50 px-4 py-2 bg-white md:text-2xl text-xl font-light text-gray-700  hover:bg-blue-400 hover:text-white border-2 border-blue-600 hover:border-none">
+              See my brochure
+          </button></a>
+    
+            </div>
+            <!-- number list -->
+            <div class="flex flex-col space-y-2 md:w-1/2">
+              <h2 class="text-blue-800 flex border-b-2 border-blue-400 justify-center p-3 text-3xl">Our Speciality</h2>
+                
+    
+    <!-- List Item 1 -->
+    <div
+    class="flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+    >
+   
+    <!-- Heading -->
+    <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+      <div class="flex items-center space-x-2">
+        <div
+          class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+        >
+          01
+        </div>
+        <h3 class="text-base font-bold md:hidden font-poppins">
+          Knowledgeable team of professionals 
+        </h3>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="hidden text-lg font-bold md:block">
+        Knowledgeable team of professionals 
+      </h3>
+    </div>
+    </div>
+    
+    <!-- List Item 2 -->
+    <div
+    class="flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+    >
+   
+    <!-- Heading -->
+    <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+      <div class="flex items-center space-x-2">
+        <div
+          class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+        >
+          02
+        </div>
+        <h3 class="text-base font-bold md:hidden font-poppins">
+          Complete client satisfaction
+
+        </h3>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="hidden text-lg font-bold md:block">
+        Complete client satisfaction
+
+      </h3>
+    </div>
+    </div>
+    <!-- List Item 3 -->
+    <div
+    class="flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+    >
+   
+    <!-- Heading -->
+    <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+      <div class="flex items-center space-x-2">
+        <div
+          class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+        >
+          03
+        </div>
+        <h3 class="text-base font-bold md:hidden font-poppins">
+          Ethical business policies
+        </h3>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="hidden text-lg font-bold md:block">
+        Ethical business policies
+      </h3>
+    </div>
+    </div>
+
+    <!-- List Item 4 -->
+    <div
+    class="flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+    >
+   
+    <!-- Heading -->
+    <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+      <div class="flex items-center space-x-2">
+        <div
+          class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+        >
+          04
+        </div>
+        <h3 class="text-base font-bold md:hidden font-poppins">
+          Reliable services
+        </h3>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="hidden text-lg font-bold md:block">
+        Reliable services
+      </h3>
+    </div>
+    </div>
+
+    <!-- List Item 5 -->
+    <div
+    class="flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+    >
+   
+    <!-- Heading -->
+    <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+      <div class="flex items-center space-x-2">
+        <div
+          class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+        >
+          05
+        </div>
+        <h3 class="text-base font-bold md:hidden font-poppins">
+          Live In Touch With Our Customers
+        </h3>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="hidden text-lg font-bold md:block">
+        Live In Touch With Our Customers
+      </h3>
+    </div>
+    </div>
+
+    <!-- List Item 6 -->
+    <div
+    class="flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+    >
+   
+    <!-- Heading -->
+    <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+      <div class="flex items-center space-x-2">
+        <div
+          class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+        >
+          06
+        </div>
+        <h3 class="text-base font-bold md:hidden font-poppins">
+          Easy payment mode
+        </h3>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="hidden text-lg font-bold md:block">
+        Easy payment mode
+      </h3>
+    </div>
+    </div>
+
+    <!-- List Item 7 -->
+    <div
+    class="hidden md:flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+    >
+   
+    <!-- Heading -->
+    <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+      <div class="flex items-center space-x-2">
+        <div
+          class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+        >
+          07
+        </div>
+        <h3 class="text-base font-bold md:hidden font-poppins">
+          Mergers & Amalgamations of two or more body corporate & Corporate Restructuring.
+        </h3>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="hidden text-lg font-bold md:block">
+        Mergers & Amalgamations of two or more body corporate & Corporate Restructuring.
+      </h3>
+    </div>
+    </div>
+     <!-- List Item 8 -->
+     <div
+     class="flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+     >
+    
+     <!-- Heading -->
+     <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+       <div class="flex items-center space-x-2">
+         <div
+           class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+         >
+           08
+         </div>
+         <h3 class="text-base font-bold md:hidden font-poppins">
+          Incorporation of all kinds of Companies.
+        </h3>
+       </div>
+     </div>
+     
+     <div>
+       <h3 class="hidden text-lg font-bold md:block">
+        Incorporation of all kinds of Companies.
+      </h3>
+     </div>
+     </div>
+      <!-- List Item 9 -->
+    <div
+    class="flex flex-col space-y-0 md:space-y-0 md:space-x-6 md:flex-row"
+    >
+   
+    <!-- Heading -->
+    <div class="rounded-full bg-blue-500 md:bg-transparent text-white">
+      <div class="flex items-center space-x-2">
+        <div
+          class="px-4 py-2 text-white rounded-full md:py-1 bg-blue-400"
+        >
+          09
+        </div>
+        <h3 class="text-base font-bold md:hidden font-poppins">
+          We Provide Pan India services.
+        </h3>
+      </div>
+    </div>
+    
+    <div>
+      <h3 class="hidden text-lg font-bold md:block">
+        We Provide Pan India services.
+      </h3>
+    </div>
+    </div>
+    <!-- about us -->
+    <h2 class="text-blue-800 flex border-b-2 border-blue-400 justify-center p-3 text-3xl">know about us more</h2>
+    <!-- about-us para -->
+    <div class="border-2 border-blue-400 flex justify-center p-5 text-blue-900 ">
+      Tejwani & Associates, Company Secretaries, is a firm with a team of dynamic Company Secretaries and other professionals rendering comprehensive professional services in the field of Corporate Laws, Securities Laws, Personnel Laws, Compliance Management, Secretarial, Financial Management and Management Consultancy Services to provide business solutions to Corporate Sector.
+
+      We offer multi-disciplinary advisory services to clients, besides the firm also offers advisory solutions on partnership and LLP laws, societies and trusts laws, employee benefit regulations etc. Our advisory services deliverables are based on gaining an understanding of clients’ query, thorough research on the subject, in-house threadbare discussions on all possible solutions, considering myriad options, application of knowledge and past experience on the issues and providing an informed opinion on the query.
+    </div>
+     </div>
+    </div>
+    </section>
+
+
+
+
+    <!-- our services -->
+    <h2 id="Services" class="text-blue-800 flex border-b-2 border-blue-400 justify-center p-3 text-3xl">Our Services</h2>
+<!-- section 1 -->
+    <div class="p-5 md:flex space-y-4 md:space-y-0">
+<!-- card 1 -->
+      <figure class="md:mr-5 md:w-1/4  bg-slate-200  rounded-xl p-8 md:p-0 list-outside">
+        <img class="flex md:h-44 md:w-full md:rounded-t-xl md:overflow-hidden mx-auto " src="assests/logo/CorporateServices.jpg" alt="" >
+        <div class="pt-6 md:p-4 text-center space-y-4">
+          <h1 class="text-blue-900 font-semibold text-xl">Corporate Services</h1>
+        </div>
+        <div class="md:p-4 mt-4 md:mt-0 space-y-2 font-light">
+          <li>Taxation Matters
+            <ul>
+              <li class="ml-5 font-light ">. Income Tax</li>
+              <li class="ml-5 font-light ">. Service Tax</li>
+              <li class="ml-5 font-light ">. Sales Tax</li>
+              <li class="ml-5 font-light ">. Goods and service Tax</li>
+              
+            </ul>
+          </li>
+          <li>Corporate Secretarial Services</li>
+          <li>Corporate Restructuring & Insolvency
+
+          </li>
+          <li>Corporate Compliance Management
+
+          </li>
+          <li>Consultancy Services for FEMA
+
+          </li>
+          <li>Intellectual Property Rights
+
+          </li>
+          <li>Secretarial Audit and Other Audits
+
+          </li>
+          <li>Corporate Advisory Services
+
+          </li>
+          <li>Legal Licenses/ Registration
+
+          </li>
+          <li>Society and Trust Registration
+
+          </li>
+        </div>
+        
+        <button class="flex m-4 p-2 border-2 bg-blue-700 text-white rounded-lg ">
+          <!-- desktop view -->
+          <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Corporate services. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a>
+          <!-- mobile view -->
+          <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Corporate services .Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a></button>
+      </figure>
+
+<!-- card 2 -->
+
+      <figure class="md:mr-5 md:w-1/4  bg-slate-200  rounded-xl p-8 md:p-0 list-outside">
+        <img class="flex md:h-44 md:w-full md:rounded-t-xl md:overflow-hidden mx-auto" src="assests/logo/IPR.png" alt="" >
+        <div class="pt-6 md:p-4 text-center space-y-4">
+          <h1 class="text-blue-900 font-semibold text-xl">IPR</h1>
+        </div>
+        <div class="md:p-4 mt-4 md:mt-0 space-y-2 font-light">
+          <li>All Trademark Services.
+          </li>
+          <li>All Copyright Services.
+
+          </li>
+          <li>All Patent Services
+
+          </li>
+          <li> Any Other IPR Related Services
+
+          </li>
+          
+        </div>
+        <a href=""></a>
+        
+        <button class="flex m-4 p-2 border-2 bg-blue-700 text-white rounded-lg ">
+          <!-- desktop view -->
+          <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: IPR. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a>
+          <!-- mobile view -->
+          <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: IPR. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a></button>
+      </figure>
+<!-- card 3 -->
+
+      <figure class="md:mr-5 md:w-1/4  bg-slate-200  rounded-xl p-8 md:p-0 ">
+        <img class="flex md:h-44 md:w-full md:rounded-t-xl md:overflow-hidden mx-auto" src="assests/logo/FEMA.jpg" alt="" width="384" height="512">
+        <div class="pt-6 md:p-4 text-center space-y-4">
+          <h1 class="text-blue-900 font-semibold text-xl">FEMA</h1>
+        </div>
+        <div class="md:p-4 mt-4 md:mt-0 space-y-2 font-light list-outside">
+          
+          <li>Filing APR and FLA with Reserve Bank of India.</li>
+          <li>Advance Reporting & FC-GPR
+
+
+          </li>
+          <li>   FCTRS
+
+          </li>
+          <li>Annual Filing, Quarterly Filing, Monthly Filing and Event Based Filings
+          </li>
+          
+        </div>
+        
+        <button class="flex m-4 p-2 border-2 bg-blue-700 text-white rounded-lg ">
+          <!-- desktop view -->
+          <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: FEMA. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a>
+          <!-- mobile view -->
+          <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: FEMA. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a></button>
+      </figure>
+
+<!-- card 4 -->
+      <figure class=" md:w-1/4  bg-slate-200  rounded-xl p-8 md:p-0 ">
+        <img class="flex md:h-44 md:w-full md:rounded-t-xl md:overflow-hidden mx-auto" src="assests/logo/ListedCompanies.jpg" alt="" width="384" height="512">
+        <div class="pt-6 md:p-4 text-center space-y-4">
+          <h1 class="text-blue-900 font-semibold text-xl">Listed Companies</h1>
+        </div>
+        <div class="md:p-4 mt-4 md:mt-0 space-y-2 font-light">
+          
+          <li>Secretarial Audit as per the provisions of the Companies Act,2013</li>
+          <li>Quarterly & Annual Compliance with SEBI under SEBI (LODR) Regulations, 2015
+          </li>
+          <li>Preparation of Scrutinizers Report for passing Postal ballot resolutions
+          </li>
+          <li>Conducting Annual General Meetings
+          </li>
+          <li>Listing and Delisting of Securities of Companies
+          </li>
+          <li>SEBI Act, Rules and Regulation Compliances
+          </li>
+          <li>Secretarial Audit and Share Reconciliation Audit
+
+
+          </li>
+          <li> Corporate Governance
+          </li>
+          <li>SEBI (LODR) Compliances
+          </li>
+          <li>Any other Event Based SEBI Compliances</li>
+        </div>
+        
+        <button class="flex m-4 p-2 border-2 bg-blue-700 text-white rounded-lg ">
+          <!-- desktop view -->
+          <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Listed companies. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a>
+          <!-- mobile view -->
+          <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Listed companies. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a></button>
+      </figure>
+    </div>
+<!-- section 2 -->
+    <div class="p-5 md:flex space-y-4 md:space-y-0">
+
+<!-- card 5 -->
+      <figure class="md:mr-5 md:w-1/4  bg-slate-200  rounded-xl p-8 md:p-0 ">
+        <img class="flex md:h-44 md:w-full md:rounded-t-xl md:overflow-hidden mx-auto" src="assests/logo/Drafting.jpg" alt="" width="384" height="512">
+        <div class="pt-6 md:p-4 text-center space-y-4">
+          <h1 class="text-blue-900 font-semibold text-xl">Drafting</h1>
+        </div>
+        <div class="md:p-4 mt-4 md:mt-0 space-y-2 font-light">
+          <li> Drafting and vetting of various agreements like LLP agreements, Supplementary agreements, Lease agreements, Service agreements, Leave and License agreements etc.</li>
+          <li>Drafting of other legal documents like Memorandum of association, Articles of Association, POA, Affidavits, Indemnity Bond, Vakalatnama, Letter of Authority etc.</li>
+        </div>
+        
+        <button class="flex m-4 p-2 border-2 bg-blue-700 text-white rounded-lg ">
+          <!-- desktop view -->
+          <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Drafting. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a>
+          <!-- mobile view -->
+          <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Drafting. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a></button>
+      </figure>
+
+<!-- card 6 -->
+
+      <figure class="md:mr-5 md:w-1/4  bg-slate-200  rounded-xl p-8 md:p-0 ">
+        <img class="flex md:h-44 md:w-full md:rounded-t-xl md:overflow-hidden mx-auto" src="assests/logo/IBC.jpg" alt="" width="384" height="512">
+        <div class="pt-6 md:p-4 text-center space-y-4">
+          <h1 class="text-blue-900 font-semibold text-xl">IBC</h1>
+        </div>
+        <div class="md:p-4 mt-4 md:mt-0 space-y-2 font-light">
+          
+          <li>The Insolvency and Bankruptcy Code, 2016 (IBC) is an Indian law which creates a consolidated framework that governs insolvency and bankruptcy proceedings for companies, partnership firms, and individuals.
+          </li>
+        </div>
+        
+        <button class="flex m-4 p-2 border-2 bg-blue-700 text-white rounded-lg ">
+          <!-- desktop view -->
+          <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: IBC. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a>
+          <!-- mobile view -->
+          <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: IBC. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a></button>
+      </figure>
+
+<!-- card 7 -->
+      <figure class="md:mr-5 md:w-1/4  bg-slate-200  rounded-xl p-8 md:p-0 ">
+        <img class="flex md:h-44 md:w-full md:rounded-t-xl md:overflow-hidden mx-auto" src="assests/logo/Nidhicompany.jpeg" alt="" width="384" height="512">
+        <div class="pt-6 md:p-4 text-center space-y-4">
+          <h1 class="text-blue-900 font-semibold text-xl">Nidhi Company</h1>
+        </div>
+        <div class="md:p-4 mt-4 md:mt-0 space-y-2 font-light">
+          <li>Nidhi Company is registered under the provisions prescribed in the Companies Act, 2013. The only objective of forming a Nidhi Company is to cultivate the habit of thrift and savings amongst its members. The minimum capital requirement to start a Nidhi Company is Rs.10 lakh (Increased via Nidhi (Amendment) Rules, 2022. Since Nidhi Company is registered as a Public Limited Company and must have “Nidhi Limited” as the last words of its name.</li>
+
+          <li>Compliance Requirements under Nidhi Companies are divided into three parts:
+
+
+
+            <ul>
+              <li class="ml-5 font-light ">. First is pre-incorporation Compliances,</li>
+              <li class="ml-5 font-light ">. The second is Post –Incorporation compliance
+              </li>
+              <li class="ml-5 font-light ">. The third is Event-based Compliances.
+              </li>
+              
+            </ul>
+          </li>
+        
+        </div>
+        
+        <button class="flex m-4 p-2 border-2 bg-blue-700 text-white rounded-lg ">
+          <!-- desktop view -->
+          <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Nidhi company .Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a>
+          <!-- mobile view -->
+          <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Nidhi company .please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a></button>
+      </figure>
+
+<!-- card 8 -->
+
+      <figure class=" md:w-1/4  bg-slate-200  rounded-xl p-8 md:p-0 ">
+        <img class="flex md:h-44 md:w-full md:rounded-t-xl md:overflow-hidden mx-auto" src="assests/logo/AdditionalServices.jpg" alt="" width="384" height="512">
+        <div class="pt-6 md:p-4 text-center space-y-4">
+          <h1 class="text-blue-900 font-semibold text-xl">Additional Services
+          </h1>
+        </div>
+        <div class="md:p-4 mt-4 md:mt-0 space-y-2 font-light">
+          
+          <li>Preparation, Execution and Registration of all Legal documents.
+          </li>
+          <li>Assistance in Opening and/or Closing of Branch Office, Project Office and Liaison Office in India.
+          </li>
+          <li>Registration of Societies and Trusts.
+          </li>
+          <li>Other Legal and Consulting Services.
+
+          </li>
+          <li>Powers of Attorney, Resolutions, Regulations, Professional services contracts etc.
+
+          </li>
+          <li>Document management and custody.
+
+          </li>
+          <li>Trusts and Foundations. We prepare the trust deeds and regulations in compliance with trust and foundation legislation in the jurisdiction of choice.
+
+          </li>
+          <li>One-man operation professional secretariat support. Allow H. Nitin & Associates to take your burden. We will ensure that all your documents are properly maintained and in compliance with requirements.
+
+          </li>
+          <li>Providing E-Mudhra Digital Signature Certificate with E-Token of any class for Individuals/Firm/Company
+
+          </li>
+          <li>Export Import Code
+          </li>
+          <li>Trade License, Shop and Establishment registration and Labour Law Compliances
+          </li>
+        </div>
+        
+        <button class="flex m-4 p-2 border-2 bg-blue-700 text-white rounded-lg ">
+          <!-- desktop view -->
+          <a class="hidden sm:block" href="https://web.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Additional services. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a>
+          <!-- mobile view -->
+          <a class=" sm:hidden" href="https://api.whatsapp.com/send?phone=+919799412333&text=Hi, I am interested in your product/service: Additional services. Please provide more details." target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl mr-2" style="color: #ffffff;"></i> Enquiry</a></button>
+      </figure>
+    </div>
+
+<!-- gallery -->
+<!-- images -->
+<h2 id="Gallery" class="text-blue-800 flex border-b-2 border-blue-400 justify-center p-3 text-3xl">Our Gallery</h2>
+<div class="hidden md:block bg-gray-100 ">
+  <div class="container mx-auto py-8">
+    <div class="gallery-container h-52 overflow-hidden rounded-lg">
+      <div class="gallery-images rounded-lg bg-gray-100">
+        <!-- Your gallery images go here -->
+        <img src="assests/logo/Image-1.JPG" alt="Image 1" class="h-64">
+        <img src="assests/logo/Image-2.JPG" alt="Image 2" class="h-64">
+        <img src="assests/logo/Image-3.JPG" alt="Image 3" class="h-64">
+        <img src="assests/logo/Image-4.JPG" alt="Image 4" class="h-64">
+        <img src="assests/logo/Image-5.JPG" alt="Image 5" class="h-64">
+        <img src="assests/logo/Image-6.JPG" alt="Image 6" class="h-64">
+        <img src="assests/logo/Image-6-2.png" alt="Image 6-2" class="h-64">
+        <img src="assests/logo/juju-3.jpg" alt="Image j3" class="h-64">
+      </div>
+    </div>
+    <div class="gallery-container h-52 overflow-hidden ">
+      <div class="gallery-videos rounded-lg bg-gray-100">
+        <!-- Your gallery images go here -->
+        <img src="assests/logo/Image-1.JPG" alt="Image 1" class="h-64">
+        <img src="assests/logo/Image-2.JPG" alt="Image 2" class="h-64">
+        <img src="assests/logo/Image-3.JPG" alt="Image 3" class="h-64">
+        <img src="assests/logo/Image-4.JPG" alt="Image 4" class="h-64">
+        <img src="assests/logo/Image-5.JPG" alt="Image 5" class="h-64">
+        <img src="assests/logo/Image-6.JPG" alt="Image 6" class="h-64">
+        <img src="assests/logo/Image-6-2.png" alt="Image 6-2" class="h-64">
+        <img src="assests/logo/juju-3.jpg" alt="Image j3" class="h-64">
+        <!-- Add more images as needed -->
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- gallery in phone  -->
+<div class="md:hidden bg-gray-200 p-4">
+  <div class="grid grid-cols-2 gap-4 md:grid-cols-4 lg:grid-cols-8">
+    <!-- Photo 1 -->
+    <div class="col-span-2 md:col-span-1 lg:col-span-2">
+        <img src="assests/logo/Image-1.JPG" alt="Photo 1" class="w-full h-auto rounded">
+    </div>
+
+    <!-- Photo 2 -->
+    <div class="col-span-2 md:col-span-1 lg:col-span-2">
+        <img src="assests/logo/Image-2.JPG" alt="Photo 2" class="w-full h-48 md:h-48 lg:h-64 rounded">
+    </div>
+
+    <!-- Photo 3 -->
+    <div class="col-span-2 md:col-span-2 lg:col-span-2">
+        <img src="assests/logo/Image-3.JPG" alt="Photo 3" class="w-full h-auto rounded">
+    </div>
+
+    <!-- Photo 4 -->
+    <div class="col-span-2 md:col-span-2 lg:col-span-2">
+        <img src="assests/logo/Image-4.JPG" alt="Photo 4" class="w-full h-48 md:h-64 lg:h-32 rounded">
+    </div>
+
+    <!-- Photo 5 -->
+    <div class="col-span-2 md:col-span-1 lg:col-span-2">
+        <img src="assests/logo/Image-5.JPG" alt="Photo 5" class="w-full h-auto rounded">
+    </div>
+
+    <!-- Photo 6 -->
+    <!-- <div class="col-span-2 md:col-span-1 lg:col-span-2">
+        <img src="assests/logo/Image-6.JPG" alt="Photo 6" class="w-full h-32 md:h-48 lg:h-64 rounded">
+    </div> -->
+
+    <!-- Photo 7 -->
+    <div class="col-span-2 md:col-span-2 lg:col-span-2">
+        <img src="assests/logo/Image-6-2.png" alt="Photo 7" class="w-full h-auto rounded">
+    </div>
+
+   
+</div>
+</div>
+
+     
+<!-- payments -->
+<h2 id="Payments" class="text-blue-800 flex border-b-2 border-blue-400 justify-center p-3 text-3xl">Payment Options</h2>
+
+<div class="md:flex ">
+  <h1 class="flex md:hidden justify-center text-xl text-blue-800 p-2 border-b-2 border-blue-400">Pay with UPI </h1>
+
+  
+<div  class="flex md:hidden justify-center ">
+  <button class="md:block p-3 px-6 pt-2 text-white text-xl bg-blue-600 rounded-full baseline  m-4 hover:bg-blue-400 hover:text-black" onclick="redirectToPayment()">click and pay : <i class="fa-solid fa-money-bill-wave fa-lg" style="color: #ffffff;"></i></button>
+</div>
+<!-- <h1 class="hidden md:blo border-blue-400">Pay with UPI </h1> -->
+  <div class="h-1/2 md:space-y-4 flex justify-center md:p-4">
+    <img class="md:mt-4 md:pt-4 flex justify-center md:w-1/3 md:h-1/4 " src="assests/logo/upipayment.jpeg" alt="">
+    
+  </div>
+  <div class="space-y-4 p-4">
+    <h1 class="flex justify-center text-xl text-blue-800 p-2 border-b-2 border-blue-400">Account Details</h1>
+    <li><span class="text-blue-900 font-semibold md:text-lg">NAME : </span>TEJWANI AND ASSOCIATES</li>
+    <li><span class="text-blue-900 font-semibold md:text-lg">BANK NAME : </span>HDFC BANK</li>
+    <li><span class="text-blue-900 font-semibold md:text-lg">BRANCH ADDRESS : </span>CHAURA RASTA, JAIPUR</li>
+    <li><span class="text-blue-900 font-semibold md:text-lg">ACC NO. : </span>50200043820093</li>
+    <li><span class="text-blue-900 font-semibold md:text-lg">IFSC : </span>HDFC0001437</li>
+    <li><span class="text-blue-900 font-semibold md:text-lg">MICR : </span>302240011</li>
+    <li><span class="text-blue-900 font-semibold md:text-lg">BRANCH CODE : </span>1437</li>
+    
+  </div>
+</div>
+
+
+
+<!-- Address -->
+<div id="Address" ></div>
+<h2 class="text-blue-800 flex border-b-2 border-blue-400 justify-center p-3 text-3xl mt-4">Visit Our Headquarters</h2>
+
+<div class="md:flex p-5 md:space-x-4">
+  <!-- Address 1 -->
+  <div class=" md:w-1/2 md:h-1/2 bg-slate-100 rounded-xl">
+    <a href="https://maps.app.goo.gl/RDypc6McLaJN29UT7" target="_blank" rel="noopener noreferrer">
+    <div class="flex justify-center text-xl text-blue-800 p-2 border-b-2 border-blue-400  md:p-4">59, Kanwar Nagar, Near Chandi ki Taksal, Jaipur-302002, Rajasthan.</div></a>
+    <!-- Map -->
+    <div class="m-4 overflow-hidden md:flex justify-center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d353.8692010050054!2d75.8291512891514!3d26.932900007468877!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db148108f2739%3A0xac16651f86871c23!2s55%2C%20Keshavdas%2010%20Marg%2C%20Janta%20Market%2C%20Tripolia%20Bazar%2C%20Kanwar%20Nagar%2C%20Jaipur%2C%20Rajasthan%20302002!5e0!3m2!1sen!2sin!4v1703592663583!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+
+  <!-- Address 2 -->
+  <div class="md:w-1/2 md:h-1/2 bg-slate-100 rounded-xl">
+    <a href="https://maps.app.goo.gl/36eidy5YGJ9DQ8U59" target="_blank" rel="noopener noreferrer">
+    <div class="flex justify-center text-xl text-blue-800 p-2 border-b-2 border-blue-400">G4, Ground Floor, Prism Tower, Near Dmart, Opp Police Headquater, Lal kothi, Jaipur-302015, Rajasthan</div></a>
+    <!-- Map -->
+    <div class="m-4 overflow-hidden md:flex justify-center">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3558.554352437667!2d75.7960814263325!3d26.885896476663127!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396db425a68f99f1%3A0x8612bbdee8974e6e!2sPrism%20Tower%2C%20Sahakar%20Marg%2C%20Lalkothi%2C%20Jaipur%2C%20Rajasthan%20302015!5e0!3m2!1sen!2sin!4v1703592798195!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</div>
+
+
+
+ <!-- Testimonials -->
+     <section id="Feedback">
+        <!-- Container to heading and testm blocks -->
+        <div class="max-w-6xl px-5 mx-auto mt-3 text-center mb-8">
+          <!-- Heading -->
+          <h2 class="text-blue-800 flex border-b-2 border-blue-400 justify-center p-3 text-3xl">Discover Why People Love Our Company!
+          </h2>
+          <!-- Testimonials Container -->
+          <div class="flex  mt-4 flex-row md:space-x-6 ">
+            <!-- Testimonial 1 -->
+            <div
+              class="flex flex-col items-center p-6 space-y-6 drop-shadow-2xl rounded-lg bg-slate-100 md:w-1/3 "
+            >
+              <h5 class="text-lg font-bold">Anisha</h5>
+              <p class="text-sm text-blue-700">
+                Outstanding support for legal and taxation needs. Exceptional drafting skills and expert guidance. A go-to firm for comprehensive company secretary services. Thumbs up!
+              </p>
+            </div>
+    
+            <!-- Testimonial 2 -->
+            <div
+              class="flex-col items-center p-6 space-y-6 drop-shadow-2xl rounded-lg bg-slate-100 md:flex md:w-1/3"
+            >
+              <h5 class="text-lg font-bold">Harshit jain</h5>
+              <p class="text-sm text-blue-700">
+                Exceptional legal expertise! Efficient in taxation, precise drafting, and adept problem-solving. A trusted partner for navigating complex business challenges.
+              </p>
+            </div>
+    
+            <!-- Testimonial 3 -->
+            <div
+              class="hidden flex-col items-center p-6 space-y-6 drop-shadow-2xl rounded-lg bg-slate-100 md:flex md:w-1/3"
+            >
+              <h5 class="text-lg font-bold">Gulshan Rai</h5>
+              <p class="text-sm text-blue-700">
+                Reliable and professional company secretary services. Expertise in legal matters, meticulous drafting, and seamless taxation solutions. Highly recommended for business compliance
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+    
+      <!-- CTA Section -->
+      <section id="Enquiry" class="bg-blue-300">
+        <!-- Flex Container -->
+        <div
+          class="container flex flex-col items-center justify-between px-6 py-24 mx-auto space-y-12 md:py-12 md:flex-row md:space-y-0"
+        >
+          <!-- Heading -->
+          <h2
+            class="md:text-5xl  font-bold text-center text-white text-2xl md:max-w-xl md:text-left"
+          >
+          Unlock solutions tailored to your needs – feel free to share your personal inquiry with us
+          <div class="hidden  md:w-2/3 md:flex md:flex-col mix-blend-normal">
+            <img class="animationImg md:mt-4 md:pt-4 rounded-r-full" src="assests/logo/management-img.webp" alt="">
+        </div>
+          </h2>
+          
+          <!-- Button -->
+          <div class="border-0 border-red-600 md:w-full ">
+            <div class="max-w-md mx-auto bg-white rounded p-6">
+              <h2 class="text-blue-800 flex border-b-2 border-blue-400 justify-center p-2 text-2xl mb-4">Contact Us</h2>
+      
+              <form action="https://formsubmit.co/csvaibhavtejwani@gmail.com" method="post">
+                  <!-- Name Input -->
+                  <div class="mb-4">
+                      <label for="name" class="block text-blue-800 text-sm font-bold mb-2">Name:</label>
+                      <input type="text" id="name" name="name"  required
+                          class="w-full p-2 border border-blue-300 rounded">
+                  </div>
+      
+                  <!-- Email Input -->
+                  <div class="mb-4">
+                      <label for="email" class="block text-blue-800 text-sm font-bold mb-2 ">Email:</label>
+                      <input type="email" id="email" name="email"  required
+                          class="w-full p-2 border border-blue-300 rounded placeholder-slate-400 contrast-more:border-slate-400 contrast-more:placeholder-slate-500">
+                  </div>
+      
+                  <!-- Phone Input -->
+                  <div class="mb-4">
+                      <label for="phone" class="block text-blue-800 text-sm font-bold mb-2">Phone:</label>
+                      <input type="tel" id="phone" name="phone" required
+                          class="w-full p-2 border border-blue-300 rounded">
+                  </div>
+      
+                  <!-- Text Box -->
+                  <div class="mb-4">
+                      <label for="message" class="block text-blue-800 text-sm font-bold mb-2">Message:</label>
+                      <textarea id="message" name="message" rows="4" required
+                          class="w-full p-2 border border-blue-300 rounded"></textarea>
+                  </div>
+
+                  <input type="hidden" name="_captcha" value="false">
+                  <input type="hidden" name="_template" value="table">
+
+
+      
+                  <!-- Submit Button -->
+                  <button type="submit" class="bg-blue-500 text-white p-2 rounded">Submit</button>
+              </form>
+          </div>
+          </div>
+        </div>
+      </section>
+            
+    
+      <!-- Footer -->
+      <footer class="bg-blue-800">
+        <!-- Flex Container -->
+        <div
+          class="container flex flex-col-reverse justify-between px-6 py-10 mx-auto space-y-8 md:flex-row md:space-y-0"
+        >
+          <!-- Logo and social links container -->
+          <div
+            class="flex flex-col-reverse items-center justify-between space-y-12 md:flex-col md:space-y-0 md:items-center"
+          >
+            <div class="mx-auto my-6 text-center text-white md:hidden">
+              Copyright &copy; 2023, All Rights Reserved
+              <div>
+                
+              </div>
+            </div>
+            <!-- Logo -->
+            <div class="p-1 flex">
+              <a href="#home">
+
+                <img class="w-12 h-auto mr-2  invert  mix-blend-normal " src="assests/logo/logojiju-1.png" alt="">
+              </a>
+              <a href="#home">
+
+                <h3 class="hidden md:block font-normal mr-2
+                 text-2xl text-white md:text-3xl cursor-pointer">Tejwani & Associates</h3>
+              </a>
+                
+            </div>
+            
+            <!-- Social Links Container -->
+            <div class="flex justify-center  ">
+              <!-- Link 1 -->
+              <!-- desktop view -->
+              <a class="hidden sm:block hover:border-b-2 hover:border-white pb-3 pr-3 " href="https://web.whatsapp.com/send?phone=+919799412333" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i></a>
+              <!-- mobile view -->
+              <a class=" sm:hidden hover:border-b-2 hover:border-white pb-3 pr-3" href="https://api.whatsapp.com/send?phone=+919799412333" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-xl" style="color: #ffffff;"></i></a>
+              <!-- Link 2 -->
+              
+              <a href="http://twitter.com/Vaibhavtejwani1" target="_blank">
+                <span class="hover:border-b-2 hover:border-white p-3 ">
+                  <i class="fa-brands fa-twitter fa-xl" style="color: #ffffff;"></i>
+
+                </span></a>
+              <!-- Link 5 -->
+              <a href="http://instagram.com/its_csvaibhav" target="_blank" rel="noopener noreferrer">
+                <span class="hover:border-b-2 hover:border-white p-3 ">
+                  <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff;"></i>
+                </span></a>
+
+                 <!-- Link 5 -->
+              <a href="https://www.linkedin.com/in/cs-vaibhav-tejwani-418390122/" target="_blank" rel="noopener noreferrer">
+                <span class="hover:border-b-2 hover:border-white p-3 ">
+                  <i class="fa-brands fa-linkedin fa-xl" style="color: #ffffff;"></i>
+                </span></a>
+
+                 <!-- Link 5 -->
+              <a href="http://facebook.com/Vaibhav tejwani  (CS Vaibhav Tejwani)" target="_blank" rel="noopener noreferrer">
+                <span class="hover:border-b-2 hover:border-white p-3 ">
+                  <i class="fa-brands fa-facebook fa-xl" style="color: #ffffff;"></i>
+                </span></a>
+                  
+              <!-- Link 3 -->
+              <a href="tel:+919799412333">
+                <span class="phoneicon  hover:border-b-2 hover:border-white p-3">
+                    <i class="fas fa-phone fa-xl" style="color: #ffffff;"></i>
+                </span>
+            </a>
+              <!-- Link 4 -->
+              <a href="mailto:csvaibhavtejwani@gmail.com" target="_blank">
+                
+                <span class="emailicon hover:border-b-2 hover:border-white p-3 ">
+                    <i class="fas fa-envelope fa-xl" style="color: #ffffff;"></i>
+                </span>
+            </a>
+              
+            </div>
+          </div>
+          <!-- List Container -->
+          <div class="flex justify-around space-x-32">
+            <div class="flex flex-col space-y-3 text-white">
+              <a href="#home" class="hover:text-red-400">Home</a>
+              <a href="#About" class="hover:text-red-400">About-Us</a>
+              <a href="#Services" class="hover:text-red-400">Services</a>
+              <a href="#Gallery" class="hover:text-red-400">Gallery</a>
+            </div>
+            <div class="flex flex-col space-y-3 text-white">
+              <a href="#Payments" class="hover:text-red-400">Payments</a>
+              <a href="#Feedback" class="hover:text-red-400">Feedback</a>
+              <a href="#Enquiry" class="hover:text-red-400">Enquiry</a>
+            </div>
+          </div>
+    
+            
+
+            
+            <div class="hidden text-white md:block">
+              Copyright &copy; 2023, All Rights Reserved
+              
+            </div>
+            
+            
+          </div>
+
+        </div>
+
+         
+      </footer>
+      <div class="bg-blue-800 p-1">
+        <h4 class="flex justify-center text-lg  font-light text-white space-y-2">Website Developer : <span>
+          <!-- desktop view -->
+          <a class="hidden sm:block  ml-2 " href="https://web.whatsapp.com/send?phone=+918368778025" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff;"></i></a>
+          <!-- mobile view -->
+          <a class=" sm:hidden ml-2" href="https://api.whatsapp.com/send?phone=+918368778025" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-whatsapp fa-lg" style="color: #ffffff;"></i></a>
+
+        </span> </h4>
+      </div>
+      
+      <script src="js/script.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+</body>
+</html>
+ 
